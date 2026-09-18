@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Basics</title>
+     <style>
+          * {
+               background-color: pink;
+          }
+          .title {
+               color: white;
+               display: flex;
+               justify-content: center;
+          }
+          .contrainer{
+               display: flex;
+               justify-content: center;
+               gap: 30px;
+          }
+          .contrainer .image-box {
+               text-align: center;
+          }
+          .contrainer .image-box img {
+               display: block;
+               margin: 0 auto;
+               width: 250px;
+               /* max-width: 50%; */
+          }
+
+          .contrainer .image-box a {
+               margin-top: 8px;
+               display: inline-block;
+          }
+          .footer-text{
+               display: flex;
+               justify-content: flex-end;
+          }
+     </style>
+</head>
+<body>
+     <h1 class="title">Online Shop!</h1>
+     <div class="contrainer">
+          <div class="image-box">
+               <img src="https://www.keychron.co.th/cdn/shop/files/J3-TMR-7.jpg?v=1787663103&width=900" alt="">
+               <br>
+               <a href="https://www.keychron.co.th/collections/j-tmr-series/products/keychron-j3-tmr-wireless-magnetic-switch-keyboard">click here</a>
+          </div>
+          <div class="image-box">
+               <img src="https://www.keychron.co.th/cdn/shop/files/Keychron-Q2-HE-QMK-Wireless-Custom-Keyboard-Full-Aluminum-Carbon-Black-Frame-Double-Rail-Magnetic-Nebula-Switch.jpg?v=1765801232&width=900" alt="">
+               <br>
+               <a href="https://www.keychron.co.th/collections/keyboard-magnetic-switch-keychron-wireless/products/keychron-q2-he-qmk-wireless-custom-keyboard">click here</a>
+          </div>
+     </div>
+     <hr>
+     <p class="footer-text">&copy; thaphita 2026 </p>
+</body>
+
+</html>

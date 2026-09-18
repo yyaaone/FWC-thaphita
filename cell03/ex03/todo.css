@@ -1,0 +1,10 @@
+#ft_list > div {
+     margin: 10px;
+     background-color: #f47721;
+     padding: 10px;
+     border-radius: 10px;
+     cursor: pointer;
+   }
+   #ft_list > div:hover {
+     background-color: #fab281;
+   }

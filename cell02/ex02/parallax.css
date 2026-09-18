@@ -1,0 +1,39 @@
+body, html {
+     margin: 0;
+     padding: 0;
+     height: 100%;
+     background-color: #000;
+   }
+   
+   .first-image, .second-image {
+     position: relative;
+     width: 100%;
+     height: 100vh;
+     background-attachment: fixed;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+   }
+   
+   .first-image {
+     background-image: url("https://www.industrialempathy.com/img/remote/ZiClJf-1920w.jpg");
+   }
+   
+   .second-image {
+     background-image: url("https://wallpaperset.com/w/full/1/8/e/115868.jpg");
+   }
+   .content {
+     width: 100%;
+     text-align: center;
+     color: #fff;
+     margin-top: 40vh;
+   }
+   
+   h3 {
+     color: #fff;
+     margin: 0;
+     font-size: 2rem;
+   }
