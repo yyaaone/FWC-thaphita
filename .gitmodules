@@ -1,0 +1,3 @@
+[submodule "rush_project"]
+	path = rush_project
+	url = https://github.com/yyaaone/rush_project_42
